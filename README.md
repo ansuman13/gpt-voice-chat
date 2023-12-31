@@ -15,9 +15,6 @@ $ python3 init.py
 $ python3 recognize.py
 ```
 
-## Videos
-
-The building of this project is documented on my YouTube channel.
-
+## Related Videos
 - Video 1: https://www.youtube.com/watch?v=_vLKWNv4d5E
 - Video 2: https://www.youtube.com/watch?v=xQdLiyCxyWQ
