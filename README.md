@@ -1,11 +1,10 @@
-# Ok, GPT!
+Hey GPT!
 
-This is an ongoing project where I'm building my own Google Home / Alexa style device that can be interacted with via voice commands.
+I'm currently working on an ongoing project to develop my own voice-activated device, similar to Google Home or Alexa.
 
-Currently it can detect a wakeup keyphrase, such as "Ok, GPT!" and then listen to a voice command. Speech recognition is done with OpenAI Whisper, locally. The command is then sent to the ChatGPT API and the response is spoken via the OpenAI Text-to-Speech API.
+At the moment, it can identify a specific wake-up phrase, like "Hey GPT!", and then respond to voice commands. The speech recognition is performed locally using OpenAI Whisper. Once a command is detected, it's sent to the ChatGPT API for processing, and the response is generated using the OpenAI Text-to-Speech API.
 
-You need to initialize it with the `init.py` script by saying the keyphrase you want to wake up the device with 10 times. After that you can run `recognize.py` and it will recognize when you say the keyphrase and then listen for the command.
-
+To set it up, you'll need to use the init.py script and repeat your chosen wake-up phrase 10 times to initialize the device. After that, you can use the recognize.py script to activate the device with the wake-up phrase and then issue commands.
 ## Quick Start
 
 ```shell
