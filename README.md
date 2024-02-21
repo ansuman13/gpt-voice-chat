@@ -1,7 +1,14 @@
 Hey GPT!
 
-ChatGPT Models used: 
-- Whisper: for speech recognization, used in `recorder.py`  
+Models used: 
+- ChatGPT Whisper: for speech recognization, used in `recorder.py`
+
+ChatGPT API Used:
+
+- Speech :  `https://api.openai.com/v1/audio/speech` for text to voice, uses tts-1 model
+- Completion : `https://api.openai.com/v1/chat/completions` for completions, uses gpt-3.5-turbo model
+
+  
 
 
 I'm currently working on an ongoing project to develop my own voice-activated device, similar to Google Home or Alexa.
