@@ -1,5 +1,9 @@
 Hey GPT!
 
+ChatGPT Models used: 
+- Whisper: for speech recognization, used in `recorder.py`  
+
+
 I'm currently working on an ongoing project to develop my own voice-activated device, similar to Google Home or Alexa.
 
 At the moment, it can identify a specific wake-up phrase, like "Hey GPT!", and then respond to voice commands. The speech recognition is performed locally using OpenAI Whisper. Once a command is detected, it's sent to the ChatGPT API for processing, and the response is generated using the OpenAI Text-to-Speech API.
@@ -13,3 +17,4 @@ $ pip install -r requirements.txt
 $ python3 init.py
 $ python3 recognize.py
 ```
+
