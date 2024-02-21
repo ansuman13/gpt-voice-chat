@@ -14,7 +14,3 @@ $ pip install -r requirements.txt
 $ python3 init.py
 $ python3 recognize.py
 ```
-
-## Related Videos
-- Video 1: https://www.youtube.com/watch?v=_vLKWNv4d5E
-- Video 2: https://www.youtube.com/watch?v=xQdLiyCxyWQ
